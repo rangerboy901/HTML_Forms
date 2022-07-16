@@ -1,0 +1,22 @@
+/* comment*/
+
+body{
+    background-color: rgb(29, 34, 35);
+}
+
+h1 {color: whitesmoke}
+h2{color:rgb(142, 96, 28)}
+h3{color:gray}
+p{color: red}
+
+
+/* class name set multiple attributes*/
+
+.firstClass{text-align:center; background-color: yellow;}
+.secondClass{text-align: right;background-color: brown;}
+
+
+
+/*style to ID*/
+#firstID{color:rgb(142, 96, 28);}
+#secondID{color:antiquewhite; background-color: black;}
