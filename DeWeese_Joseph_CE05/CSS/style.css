@@ -1,0 +1,19 @@
+body
+{
+    background-color: darkgrey;
+}
+h1{
+    color: black;
+text-align: center;
+}
+
+h2{color: yellow}
+
+h3{color: black}
+
+#totGreen{color: green;}
+#totYellow{color: yellow;}
+
+#totalPriceGreen {background-color: green;}
+#totalPriceYellow {background-color: yellow;}
+
