@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet"  href="CSS/style.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!--JWD:  BEGINNING FORM -->
+<h1>HTML Forms</h1>
+    <form id="User Information">
+        <!--JWD:  USER NAME -->
+        <input  type="text" id="userName" required placeholder="Enter your User Name"><label for="userName">Type In Name</label><br>
+        <br>
+        <!--JWD:  ENTER NUMBER -->
+        <input type="number" id="num1" step=".5" min="0" max="50" required ><label for="num1">Please type in a number between 0 and 50...</label><br>
+        <br>
+        <!--JWD:  ENTER URL -->
+        <input type="url" id="userURL" required placeholder="https://yourSite.com"><label for="userURL">URL</label><br>
+        <br>
+        <!--JWD:  ENTER ANY NUMBER -->
+        <input type="number" id="num2" required placeholder="Enter any number"><label for ="num2">Type in any number...</label><br>
+        <br>
+        <!--JWD:  ENTER PASSWORD -->
+        <input type="password" id="userPassword" required  placeholder="Enter your password"><label for="userPassword">Enter your password...</label><br>
+        <br>
+        <br>
+        <!--JWD:  RADIO BUTTON -->
+        <fieldset>
+         <legend>Which color do you prefer?</legend>
+            <input type="radio" name="ColorChoices" value="blue" id="blueChoice"><label for="blueChoice">Blue</label>
+            <input type="radio" name="ColorChoices" value="red" id="redChoice" checked><label for="redChoice">Red</label>
+            <input type="radio" name="ColorChoices" value="black" id="blackChoice"><label for="blackChoice">Black</label>
+        
+        </fieldset>
+        <br>
+        <br>
+        <!--JWD:  CHECK BOXES -->
+        <fieldset>
+            <legend>Select pet of choice</legend>
+            <input type="checkbox" name="petType" value="dog" checked id="dogChoice"><label for="dogChoice">dog</label>
+            <input type="checkbox" name="catType" value="cat" id="catChoice"><label for="catChoice">cat</label>
+            <input type="checkbox" name="birdType" value="bird" id="birdChoice"><label for="birdChoice">bird</label>
+        </fieldset>
+        <br>
+        <br>
+        <!--JWD:  ENTER EMAIL -->
+        <input type="email" id="userEmail" required placeholder="john.doe@anymail.com"><label for="userEmail">Type in email address...</label><br>
+        <br>
+        <input type="button"  id="button1" value ="Button 1">
+        <input type="reset"  id="reset1" value ="Reset">
+        <button type="button"  id="button2">Button 2</button>
+        <button type="reset"  id="reset2">Click me to Erase</button>
+        <br>
+        <br>
+
+</form>
+
+<!--JWD:  SECOND FORM -->
+<form id="question2">
+    
+    <h1 id="fantasticHeadline">Calculate the area of a rectangle.</h1>
+    <br>
+    <h2 id="finalResult"></h2>
+    <br>
+    <input type="number" id="width" placeholder="Type in a width" step="any" required min="0"<label for="width"></label><br>
+    <input type="number" id="height" placeholder="Type in a height" step="any" required min="0"><label for="height"></label><br>
+    <br>
+    <input type="text" id="area"><label for="area">Area</label><br>
+    <input type="button" id="calcArea" value="Calculate the area">
+    <br>
+    
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+<script src="JS/script.js"></script>
+</body>
+</html>
